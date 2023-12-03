@@ -17,6 +17,7 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+
 #include "main.h"
 #include "spi.h"
 #include "gpio.h"
@@ -69,8 +70,10 @@ uint8_t inFlag = 0;
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-  LIS3DSH_InitTypeDef myAccConfigDef;
-  /* USER CODE END 1 */
+
+	LIS3DSH_InitTypeDef myAccConfigDef;
+  
+/* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
 
